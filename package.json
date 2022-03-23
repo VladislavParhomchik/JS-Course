@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VladislavParhomchik/Learning.git"
+    "url": "git+https://github.com/VladislavParhomchik/JS-Course.git"
   },
   "author": "Vladislav Parhomchik",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VladislavParhomchik/Learning/issues"
+    "url": "https://github.com/VladislavParhomchik/JS-Course/issues"
   },
-  "homepage": "https://github.com/VladislavParhomchik/Learning#readme"
+  "homepage": "https://github.com/VladislavParhomchik/JS-Course#readme"
 }
