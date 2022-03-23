@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/VladislavParhomchik/JS-Course/issues"
   },
-  "homepage": "https://github.com/VladislavParhomchik/JS-Course#readme"
+  "homepage": "https://github.com/VladislavParhomchik/JS-Course#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
 }
