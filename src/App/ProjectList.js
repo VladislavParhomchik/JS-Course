@@ -1,11 +1,16 @@
-import { ProjectItem as PrjItem } from './ProjectItem.js';
-import * as DOMH from '../Utility/DOMHelper.js';
+import { ProjectItem as PrjItem } from './ProjectItem';
+import * as DOMH from '../Utility/DOMHelper';
+
+// const ProjectItem = 'abc';
+
+// console.log(DEFAULT_VALUE);
 
 export class ProjectList {
-  projects = [];
+  // projects = [];
 
   constructor(type) {
     this.type = type;
+    this.projects = [];
     const prjItems = document.querySelectorAll(`#${type}-projects li`);
     for (const prjItem of prjItems) {
       this.projects.push(
@@ -17,7 +22,7 @@ export class ProjectList {
   }
 
   connectDroppable() {
-    console.log(globalThis.DEFAULT_VALUE);
+    // console.log(globalThis);
     const list = document.querySelector(`#${this.type}-projects ul`);
 
     list.addEventListener('dragenter', (event) => {
